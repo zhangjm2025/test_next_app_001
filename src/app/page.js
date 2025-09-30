@@ -1,7 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
 import LinkButton from "@/components/LinkButton";
-// import logo from '../public/logo.png'
 
 export default function Home() {
   return (
@@ -19,6 +17,7 @@ export default function Home() {
         </LinkButton>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+        
       </footer>
     </div>
   );
